@@ -1,38 +1,493 @@
 .App {
+  border: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+main {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.color-nav {
+  background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navColor{
+  margin: 5px;
+  font-family: "Lato";
+  font-size: 16px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navColor:visited{
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.title {
+  font-family: 'Slabo 13px', serif;
 }
+
+/* Toggle Component Styling End */
+.react-switch-checkbox {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.react-switch-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 70px;
+  height: 35px;
+  background: grey;
+  border-radius: 100px;
+  position: relative;
+  transition: background-color .2s;
+}
+
+.react-switch-label .react-switch-button {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 35px;
+  height: 30px;
+  border-radius: 45px;
+  transition: 0.2s;
+  background: #fff;
+  box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+}
+
+.react-switch-checkbox:checked + .react-switch-label .react-switch-button {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+}
+
+.react-switch-label:active .react-switch-button {
+  width: 60px;
+}
+/* Toggle Component Styling End */
+
+/* Home Component Styling Start */
+
+.home {
+  background-image: url("https://res.cloudinary.com/dxqwpud0l/image/upload/v1638075984/background_iayjyx.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  /* min-width: 1600px; */
+  
+}
+
+.homeContainer {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+#myPic {
+  width: 180px;
+  height: 240px;
+  border-radius: 50%;
+  margin: 10px;
+  border: 2px solid white;
+}
+
+.name {
+  font-family: 'Slabo 13px', serif;
+  color: black;
+}
+
+.main {
+  width: 500px; 
+  margin: 5px; 
+}
+
+.intro {
+  font-size: 20px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 25px;
+  width: 150px;
+}
+
+.aboutMe {
+  font-size: 14px;
+  width: 180px;
+}
+
+.separator {
+  border: 1px solid rgb(255, 255, 255);
+  width: 160px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.socialsHome {
+  margin-top: 10px;
+  width: 180px;
+}
+
+/* Home Component Styling End */
+
+/* About Component Styling Start */
+
+.aboutContainer{
+  min-height: 50vh;
+  display: flex;
+}
+
+.about {
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sectionSeparator {
+  border: 1px solid rgb(2, 2, 2);
+  width: 160px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+
+.aboutMain {
+  text-align: left;
+  justify-content: center;
+  margin: 10px;
+  padding: 30px;
+  /* height: 35vh;
+  width: 700px;
+  margin: 10px; */
+}
+
+.paragraph {
+  margin: 20px;
+}
+
+.pawIcon {
+  color: lightpink;
+}
+
+.plantIcon {
+  color: green;
+}
+
+/* About Component Styling End */
+
+/* Skills Component Styling Start */
+
+.skillsContainer{
+  display: text-align;
+  height: 55vh;
+  min-height: 50vh;
+  
+}
+
+.skillsDescription {
+  margin: 20px;
+}
+
+.skillsList{
+  margin: 30px;
+}
+
+.skillsIcons {
+  text-align: center;
+  margin: 10px;
+}
+
+.fab {
+  font-size: 40px;
+}
+
+.fa-html5 {
+  color: #E76027;
+}
+
+.fa-css3-alt {
+  color: #38AAD7
+}
+
+.fa-js-square {
+  color: #EDD51D
+}
+
+.fa-react {
+  color: #5AD0EF;
+}
+
+.fa-node-js {
+  color: #7EC427;
+}
+
+/* Skills Component Styling End */
+
+/* Portfolio Component Styling Start */
+
+.portfolioTitle {
+  text-align: center;
+}
+
+.portfolioContainer {
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.petBuddies{
+  margin: 30px;
+}
+
+.projectTitle{
+  text-align: center;
+}
+
+.projectDescription {
+  width: 350px;
+  margin: 10px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.projectPic {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.projectPic:hover {
+  width: 295px;
+  height: 295px;
+  transition: all 0.3s ease-in-out;
+}
+
+.projectButtons {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.linkButton {
+  background: white;
+  border: 1px solid lavender;
+}
+
+.linkButton:hover {
+  background: lavender;
+  transition: all 0.5s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Portfolio Component Styling End */
+
+/* Contact Component Styling Start */
+
+.contactContainer{
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  height: 60vh;
+  padding: 10px;
+  margin-bottom: 80px;
+  margin: 0 auto;
+}
+
+.contact {
+  padding: 20px;
+}
+
+.contactDescription {
+  width: 300px;
+  margin: 10px;
+}
+
+.contactName {
+  margin: 5px;
+  width: 300px;
+}
+
+.contactEmail {
+  margin: 5px;
+  width: 300px;
+}
+
+.contactMessage {
+  margin: 5px;
+  width: 300px;
+  height: 400px;
+}
+
+.submitButton {
+  background: white;
+  border: 1px solid lavender;
+  margin-left: 120px
+}
+
+.submitButton:hover {
+  background: lavender;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Contact Component Styling End */
+
+/* Footer Component Styling Start */
+
+.footer {
+  background: lightgray;
+}
+
+.socials {
+  display: inline;
+  margin: 10px;
+}
+
+.fa-linkedin {
+  color: #0A66C2;
+}
+
+.fa-linkedin:hover {
+  font-size: 35px;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-github {
+  color: #000000;
+}
+
+.fa-github:hover {
+  font-size: 35px;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-twitter-square {
+  color: #4DA6EA;
+}
+
+.fa-twitter-square:hover {
+  font-size: 35px;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Footer Component Styling End */
+
+/*Tablet view */
+@media only screen and (min-width: 678px){
+
+  .navColor{
+    font-size: 20px;
+  }
+
+  #myPic {
+    width: 400px;
+    height: 450px;
+    border-radius: 50%;
+    margin: 5px;
+  }
+  
+  .intro {
+    font-size: 40px;
+  }
+
+  .name {
+    font-size: 60px;
+    width: 600px;
+  }
+
+  .socialsHome {
+    width: 300px;
+  }
+
+  .home-icon {
+    font-size: 70px;
+  }
+
+  .home-icon:hover{
+    font-size: 60px;
+  }
+
+  .separator {
+    width: 460px;
+  }
+
+  .description {
+    font-size: 50px;
+  }
+
+  .aboutMe {
+    font-size: 30px;
+    width: 600px;
+  }
+
+  .paragraph {
+    font-size: 20px;
+  }
+
+  .skillsDescription {
+    font-size: 20px;
+  }
+  
+  .portfolioContainer {
+    display: flex;
+  }
+
+  .projectDescription {
+    font-size: 20px;
+  }
+
+  .petBuddiesPic {
+    width: 400px;
+    height: 400px;
+  }
+
+  .petBuddiesPic:hover {
+    width: 380px;
+    height: 380px;
+  }
+
+  .contactDescription {
+    font-size: 20px;
+  }
+
+};
+
+/*Desktop view */
+@media only screen and (min-width: 992px){
+
+  .intro {
+    font-size: 50px;
+  }
+
+  .name {
+    font-size: 70px;
+  }
+
+  .description {
+    font-size: 60px;
+  }
+
+  .aboutMe {
+    font-size: 25px;
+  }
+
+};

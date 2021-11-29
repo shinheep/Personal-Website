@@ -34,6 +34,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
+            <hr className="lineBreak"></hr>
 
         </div>
     );

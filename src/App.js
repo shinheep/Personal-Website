@@ -45,7 +45,7 @@ function App() {
 
       <main>
         <About /> <hr className="lineBreak"></hr>
-        <Skills /> <hr className="lineBreak"></hr>
+        <Skills />
         <Portfolio /> <hr className="lineBreak"></hr>
         <Contact/>
         <Footer />

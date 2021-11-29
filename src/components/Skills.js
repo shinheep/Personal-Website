@@ -5,7 +5,7 @@ const Skills = () => {
                 <h1 className="title">My Tech Stack</h1>
                 <div className="sectionSeparator"></div>
 
-                <div className="skillsDescription">My skills include but aren't limited to:</div>
+                <div className="skillsDescription">My skills include, but aren't limited to:</div>
                 
                 <div className="skillsList">
                     <div className="skillsIcons">

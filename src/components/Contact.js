@@ -30,6 +30,11 @@ const Contact = () => {
 
         let sheet = await doc.sheetsByIndex[0];
         sheet.addRow(newRow)
+        .then(data => [
+            setName(''),
+            setEmail(''),
+            setMessage('')
+        ])
     }
 
     const handleNameChange = (e) => {

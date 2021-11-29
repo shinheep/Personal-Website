@@ -50,7 +50,7 @@ const Contact = () => {
             <h1 className="title">Contact</h1>
             <div className="sectionSeparator"></div>
             
-                <div className="contactDescription">Let's chat! I'm currently open to work, and would love to hear about new opportunities! Or just say hi! </div>
+                <div className="contactDescription">Questions? Comments? Inquiries? Let's connect!</div>
                 <div><input className="contactName" value={name} onChange={handleNameChange} type='text' placeholder="Name" /></div>
                 <div><input className="contactEmail" value={email} onChange={handleEmailChange} type='text' placeholder="Email" /></div>
                 <div><textarea className="contactMessage" id="message" value={message} onChange={handleMessageChange} type='text' placeholder="Message" /></div>

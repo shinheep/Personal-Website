@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="homeContainer">
-        <img id="myPic" src="./ProfilePic.jpg" alt="myPic" />
+        <img id="myPic" src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1637695467/ProfilePic_vyffoy.jpg" alt="myPic" />
 
         <div className="main">
           <h4 className="name">

@@ -1,7 +1,7 @@
-import React, { useState, useRef } from "react";
+import React from "react";
 import "./App.css";
-import { Navbar, Container, Offcanvas, Nav } from "react-bootstrap";
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Navbar, Container, Nav } from "react-bootstrap";
+import { Route, Switch } from "react-router-dom";
 import About from "./components/About";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
@@ -9,7 +9,6 @@ import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import {Link} from 'react-scroll'
-import ToggleSwitch from "./components/ToggleSwitch";
 
 
 function App() {
@@ -35,7 +34,6 @@ function App() {
           </Container>
         </Navbar>
       </nav>
-      {/* <ToggleSwitch /> */}
 
       <Switch>
         <Route path="/" exact component={Home} />

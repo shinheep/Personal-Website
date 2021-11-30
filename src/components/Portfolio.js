@@ -23,9 +23,9 @@ const Portfolio = () => {
                     <img src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1638088962/Screen_Shot_2021-11-28_at_12.42.26_AM_wsobm7.png" alt="travelgram" className="projectPic"/>
                     
                     <div className="projectButtons">
-                        <a target="blank" className="liveLinkButton" href="https://shinheep.github.io/PetBuddies/#/"><input className="linkButton" type="submit" value="Live Link"/></a>
+                        <a target="blank" className="liveLinkButton" href="https://shinheep.github.io/travelgram/"><input className="linkButton" type="submit" value="Live Link"/></a>
 
-                        <a target="blank" className="liveLinkButton" href="https://github.com/shinheep/travel-frontend"><input className="linkButton" type="submit" value="GitHub Link"/></a>
+                        <a target="blank" className="liveLinkButton" href="https://github.com/shinheep/travelgram"><input className="linkButton" type="submit" value="GitHub Link"/></a>
                     </div>
                 </div>
 

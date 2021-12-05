@@ -32,6 +32,12 @@ const Skills = () => {
                         <i class="fab fa-node-js"></i>
                         <div>Node.js</div>
                     </div>
+
+                    <div className="skillsIcons">
+                    <i class="fab fa-python"></i>
+                        <div>Python</div>
+                    </div>
+
                 </div>
             </div>
             <hr className="lineBreak"></hr>

@@ -358,6 +358,10 @@ a {
   transition: all 0.5s ease-in-out;
 }
 
+.fa-python{
+  color: #3276AE;
+}
+
 /* Footer Component Styling End */
 
 /*Tablet view */

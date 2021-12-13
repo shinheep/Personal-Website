@@ -14,11 +14,11 @@ const About = () => {
                     </div>
 
                     <div className="paragraph">
-                        Fast-forward to today, I have just completed the Software Engineering Immersive Program at General Assembly, and I am proud to say my knowledge of programming goes beyond adding pretty stars to a website. My main focus these days is building full stack responsive applications using React, JavaScript, MongoDB, Mongoose, Express, and Node.
+                        Fast-forward to today, I have just completed the Software Engineering Immersive Program at General Assembly, and I am proud to say my knowledge of programming goes beyond adding pretty stars to a website. With a detail-oriented approach to solving design and development problems, I focus on adding value to any team that I join. I utilize full-stack software solutions primarily focused on JavaScript, React, Node.Js, Python, Django, and MongoDB to create dynamic, high-quality user-focused solutions that deliver the best experience using the highest quality modern development methodology.
                     </div>
 
                     <div className="paragraph">
-                        Apart from coding, I'm a proud dog and plant mom! <i className="fas fa-paw pawIcon"></i> <i className="fas fa-seedling plantIcon"></i>
+                        Apart from coding, I'm a proud dog and plant mom!
                     </div>
                     
                 </div>

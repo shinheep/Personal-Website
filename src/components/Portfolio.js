@@ -6,6 +6,18 @@ const Portfolio = () => {
             <div className="portfolioContainer">
                 
                 <div className="petBuddies">
+                    <h3 className="projectTitle">Plantify</h3>
+                    <div className="projectDescription">A front-end app modeling a Plant E-commerce page built with React.js. Users can browse through different plants, perform a controlled search for plants, and click to view more info about the plant.</div>
+                    <img src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1640112883/Screen_Shot_2021-12-21_at_10.54.27_AM_b07khf.png" alt="plantify" className="projectPic"/>
+                    
+                    <div className="projectButtons">
+                        <a target="blank" className="liveLinkButton" href="https://shinheep.github.io/Plantify/#/"><input className="linkButton" type="submit" value="Live Link"/></a>
+
+                        <a target="blank" className="liveLinkButton" href="https://github.com/shinheep/Plantify"><input className="linkButton" type="submit" value="GitHub Link"/></a>
+                    </div>
+                </div>
+                
+                <div className="petBuddies">
                     <h3 className="projectTitle">Pet Buddies</h3>
                     <div className="projectDescription">A front-end app utilizing React.js components, and The Dog API. Users can browse through the different animals, click to see Pop-up information about each, and decide which ones to "adopt."</div>
                     <img src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1636348376/Pet_Buddies_Screenshot_jvpfvd.png" alt="petbuddies" className="projectPic"/>

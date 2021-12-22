@@ -129,9 +129,16 @@ main {
   justify-content: center;
   margin: 10px;
   padding: 30px;
+  background: #DEE2E6;
+  border-radius: 20px;
   /* height: 35vh;
   width: 700px;
   margin: 10px; */
+}
+
+.insideAbout{
+  background: rgb(243, 242, 242);
+  border-radius: 20px;
 }
 
 .paragraph {
@@ -215,14 +222,22 @@ main {
   min-height: 60vh;
   display: flex;
   flex-wrap: wrap;
+  background: #eaf0f0;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 20px;
 }
 
 .petBuddies{
   margin: 30px;
+  background: #edf6f9;
+  border-radius: 20px;
 }
 
 .projectTitle{
   text-align: center;
+  font-family: 'Slabo 13px', serif;
 }
 
 .projectDescription {
@@ -274,10 +289,11 @@ a {
   text-align: left;
   display: flex;
   justify-content: center;
-  width: 80vw;
+  width: 90%;
   padding: 10px;
-  margin-bottom: 80px;
   margin: 0 auto;
+  margin-bottom: 40px;
+  border-radius: 20px;
 }
 
 .contact {
@@ -302,7 +318,7 @@ a {
 .contactMessage {
   margin: 5px;
   width: 300px;
-  height: 400px;
+  height: 300px;
 }
 
 .submitButton {

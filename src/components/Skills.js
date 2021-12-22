@@ -1,5 +1,6 @@
 const Skills = () => {
     return (
+        <div>
         <div className="skillsContainer">
             <div className="skills">
                 <h1 className="title">My Tech Stack</h1>
@@ -40,8 +41,10 @@ const Skills = () => {
 
                 </div>
             </div>
-            <hr className="lineBreak"></hr>
+            
 
+        </div>
+        <hr className="lineBreak"></hr>
         </div>
     );
 };

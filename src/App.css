@@ -231,7 +231,7 @@ main {
 
 .petBuddies{
   margin: 30px;
-  background: #edf6f9;
+  background: rgb(243, 242, 242);
   border-radius: 20px;
 }
 
@@ -297,7 +297,6 @@ a {
 
 .contact {
   padding: 20px;
-  background: #fae1dd;
   border-radius: 20px;
 }
 

@@ -227,7 +227,7 @@ main {
   margin: 30px;
   border: 1px solid gray;
   box-shadow: 10px 5px 5px gray;
-  width: 80%;
+  width: 350px;
 }
 
 .projectTitle{
@@ -432,23 +432,6 @@ a {
 
   .skillsDescription {
     font-size: 20px;
-  }
-  
-  .portfolioContainer {
-    display: flex;
-  }
-
-  .projectDescription {
-    font-size: 20px;
-    height: 150px;
-  }
-
-  .projectPic {
-    width: 600px;
-    height: 350px;
-    margin: 0 auto;
-    display: flex;
-    margin-top: 10px;
   }
 
   .petBuddiesPic:hover {

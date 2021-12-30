@@ -7,7 +7,7 @@ const Portfolio = () => {
                 
                 <div className="petBuddies">
                     <h3 className="projectTitle">Plantify</h3>
-                    <div className="projectDescription">A front-end Plant Database page built with React.js. Users can browse through different plants, perform a controlled search, and click to view more info about the specific plant. Django backend in the works for user authentication.</div>
+                    <div className="projectDescription">A front-end Plant Database page built with React.js. Users can browse through different plants, perform a controlled search, and click to view more info about the specific plant.</div>
                     <img src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1640112883/Screen_Shot_2021-12-21_at_10.54.27_AM_b07khf.png" alt="plantify" className="projectPic"/>
                     
                     <div className="projectButtons">

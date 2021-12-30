@@ -15,7 +15,7 @@ const About = () => {
                         </div>
 
                         <div className="paragraph">
-                            Fast-forward to today, I have just completed the Software Engineering Immersive Program at General Assembly, and I am proud to say my knowledge of programming goes beyond adding pretty stars to a website. With a detail-oriented approach to solving design and development problems, I focus on adding value to any team that I join. I utilize full-stack software solutions primarily focused on JavaScript, React, Node.Js, Python, Django, and MongoDB to create dynamic, high-quality user-focused solutions that deliver the best experience using the highest quality modern development methodology.
+                            Fast-forward to today, and I am proud to say my knowledge of programming goes beyond adding pretty stars to a website. With a detail-oriented approach to solving design and development problems, I focus on adding value to any team that I join. I utilize full-stack software solutions to create dynamic, high-quality user-focused solutions that deliver the best experience using the highest quality modern development methodology.
                         </div>
 
                         <div className="paragraph">
@@ -23,10 +23,6 @@ const About = () => {
                         </div>
                     </div>
                     
-                </div>
-
-                <div className="certifications">
-
                 </div>
 
             </div>

@@ -6,9 +6,9 @@ const Skills = () => {
                 <h1 className="title">My Tech Stack</h1>
                 <div className="sectionSeparator"></div>
 
-                <div className="skillsDescription">My skills include, but aren't limited to:</div>
+                <div className="skillsDescription">Currently building primarily with MERN stack, however I enjoy adding new technologies to my toolkit, and am always open to learning a new language!</div>
                 
-                <div className="skillsList">
+                {/* <div className="skillsList">
                     <div className="skillsIcons">
                         <i class="fab fa-html5"></i>
                         <div>HTML</div>
@@ -39,7 +39,7 @@ const Skills = () => {
                         <div>Python</div>
                     </div>
 
-                </div>
+                </div> */}
             </div>
             
 

@@ -53,18 +53,6 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <div className="petBuddies">
-                    <h3 className="projectTitle">Leafy</h3>
-                    <div className="projectDescription">Collaborated with a team of developers to create a full stack app with MERN. Users can add plants to their list, browse through their plants, water them, and remove them from their list.</div>
-                    <img src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1638085698/Screen_Shot_2021-11-27_at_11.47.36_PM_klt4bz.png" alt="plant" className="projectPic"/>
-                    
-                    <div className="projectButtons">
-                        <a target="blank" className="liveLinkButton" href="https://github.com/oraweechan/plant-frontend"><input className="linkButton" type="submit" value="Front-end Github"/></a>
-
-                        <a target="blank" className="liveLinkButton" href="https://github.com/oraweechan/plant-api"><input className="linkButton" type="submit" value="Back-end Github"/></a>
-                    </div>
-                </div>
-
 
             </div>
         </div>

@@ -8,7 +8,7 @@ const Skills = () => {
 
                 <div className="skillsDescription">Currently building primarily with MERN stack, however I enjoy adding new technologies to my toolkit, and am always open to learning a new language!</div>
                 
-                {/* <div className="skillsList">
+                <div className="skillsList">
                     <div className="skillsIcons">
                         <i class="fab fa-html5"></i>
                         <div>HTML</div>
@@ -39,7 +39,7 @@ const Skills = () => {
                         <div>Python</div>
                     </div>
 
-                </div> */}
+                </div>
             </div>
             
 

@@ -43,7 +43,7 @@ const Portfolio = () => {
 
                 <div className="petBuddies">
                     <h3 className="projectTitle">Dictionary</h3>
-                    <div className="projectDescription">A React.js app, built on a whim one free afternoon. A simple, but full stack dictionary, pulling data from the Dictionary API. As a dictionary does, the user can search a word to look up its definition. Programming is fun! </div>
+                    <div className="projectDescription">A React.js app, built on a whim one free afternoon. A simple, but full stack dictionary, pulling data from the Dictionary API. The user can search a word to look up its definition.</div>
                     <img src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1638344170/Screen_Shot_2021-11-30_at_11.35.51_PM_bthbjz.png" alt="plant" className="projectPic"/>
                     
                     <div className="projectButtons">

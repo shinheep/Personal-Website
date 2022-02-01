@@ -19,7 +19,7 @@ const Portfolio = () => {
 
                 <div className="petBuddies">
                     <h3 className="projectTitle">TravelGram</h3>
-                    <div className="projectDescription">Collaborated with a team of developers to create a full stack app with MERN. Users can sign in using Google Sign in, and post about their travels, as well as browse through their feed of other travelers' posts.</div>
+                    <div className="projectDescription">Full stack web application that allows users to share their travel experiences to a community of other travelers. Front end built with React and Material UI. Backend built with Express and MongoDB.</div>
                     <img src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1638088962/Screen_Shot_2021-11-28_at_12.42.26_AM_wsobm7.png" alt="travelgram" className="projectPic"/>
                     
                     <div className="projectButtons">

@@ -19,7 +19,8 @@ function App() {
       <nav>
         <Navbar className="color-nav" collapseOnSelect expand="lg" variant="dark">
           <Container>
-            <Navbar.Brand href="/">SP</Navbar.Brand>
+            {/* <Navbar.Brand href="/">SP</Navbar.Brand> */}
+            <Link activeClass="active" to="home" spy={true} smooth={false} className="navColor">SP</Link>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">

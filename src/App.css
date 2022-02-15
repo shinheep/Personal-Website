@@ -9,6 +9,9 @@ main {
 
 .color-nav {
   background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navColor{

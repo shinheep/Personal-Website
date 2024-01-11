@@ -1,10 +1,30 @@
 import Typewriter from "typewriter-effect";
+import Lottie from 'react-lottie'
+import animationData from '../lotties/shapes.json'
 
 const Home = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  }
   return (
+    
     <div className="home">
+
       <div className="homeContainer">
-        <img id="myPic" src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1637695467/ProfilePic_vyffoy.jpg" alt="myPic" />
+        {/* <img id="myPic" src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1637695467/ProfilePic_vyffoy.jpg" alt="myPic" /> */}
+
+        <div>
+          <Lottie 
+          options={defaultOptions}
+            height={200}
+            width={200}
+          />
+        </div>
 
         <div className="main">
           <h4 className="name">
@@ -22,7 +42,7 @@ const Home = () => {
               }}
             />
           </h4>
-          <div className="aboutMe">I'm a Software Engineer.</div>
+          <div className="aboutMe">Software Engineer</div>
           <div className="separator"></div>
 
           <div className="socialsHome">
@@ -37,11 +57,6 @@ const Home = () => {
             <a target="blank" href="https://github.com/shinheep">
               <div className="socials">
                 <i class="fab fa-github icon home-icon"></i>
-              </div>
-            </a>
-            <a target="blank" href="https://twitter.com/shinheecodey">
-              <div className="socials">
-                <i class="fab fa-twitter-square icon home-icon"></i>
               </div>
             </a>
           </div>

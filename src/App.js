@@ -28,7 +28,7 @@ function App() {
                 <Link activeClass="active" to="skills" spy={true} smooth={false} className="navColor">My Tech Stack</Link>
               </Nav>
               <Nav>
-                <Link activeClass="active" to="portfolio" spy={true} smooth={false} className="navColor">Portfolio</Link>
+                {/* <Link activeClass="active" to="portfolio" spy={true} smooth={false} className="navColor">Portfolio</Link> */}
                 <Link activeClass="active" to="contact" spy={true} smooth={false} className="navColor">Contact</Link>
               </Nav>
             </Navbar.Collapse>
@@ -41,13 +41,13 @@ function App() {
         <Route path="/about" exact component={About} />
         <Route exact path="/skills" component={Skills} />
         <Route exact path="/contact" component={Contact} />
-        <Route path="/portfolio" exact component={Portfolio} />
+        {/* <Route path="/portfolio" exact component={Portfolio} /> */}
       </Switch>
 
       <main>
         <About /> <hr className="lineBreak"></hr>
         <Skills />
-        <Portfolio /> <hr className="lineBreak"></hr>
+        {/* <Portfolio /> <hr className="lineBreak"></hr> */}
         <Contact/>
         <Footer />
       </main>

@@ -47,9 +47,10 @@ main {
 }
 
 .homeContainer {
-  text-align: left;
+  /* text-align: left; */
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   height: 80vh;
   margin: 0 auto;
@@ -69,7 +70,7 @@ main {
 }
 
 .main {
-  width: 300px; 
+  /* width: 300px;  */
   margin: 5px; 
 }
 
@@ -164,6 +165,22 @@ main {
   
 }
 
+.skillTitle{
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #00786C;
+}
+
+.indivSkillContain{
+  margin: 10px;
+}
+
+.skill{
+  list-style-type: none;
+  text-align: left;
+}
+
 .skillsDescription {
   margin: 20px;
 }
@@ -171,7 +188,7 @@ main {
 .skillsList{
   margin: 30px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .skillsIcons {
@@ -399,6 +416,16 @@ a {
     height: 350px;
     border-radius: 50%;
     margin: 5px;
+  }
+
+  .homeContainer {
+    /* text-align: left; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 80vh;
+    margin: 0 auto;
   }
   
   .intro {

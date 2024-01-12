@@ -42,7 +42,7 @@ const Home = () => {
               }}
             />
           </h4>
-          <div className="aboutMe">Software Engineer</div>
+          <div className="aboutMe">Software Engineer | Web Developer</div>
           <div className="separator"></div>
 
           <div className="socialsHome">

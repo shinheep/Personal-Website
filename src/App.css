@@ -145,6 +145,7 @@ main {
 
 .paragraph {
   margin: 20px;
+  font-weight: bold;
 }
 
 .pawIcon {
